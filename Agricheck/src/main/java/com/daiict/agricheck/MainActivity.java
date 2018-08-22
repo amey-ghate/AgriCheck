@@ -160,7 +160,8 @@ public class MainActivity extends AppCompatActivity {
 
 
     void DiseaseInformation(){
-        /* Get information about the uploaded image*/
+        Intent intent = new Intent(getApplicationContext(), imageDetails.class);
+        startActivity(intent);
     }
 
     void TakePhoto()
