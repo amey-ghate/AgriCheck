@@ -1,0 +1,77 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.daiict.agricheck.imageDetails"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_image_details"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/Crop_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="Name of the crop"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/CropName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Please enter the crop name"
+        android:layout_weight="0.06"
+        />
+
+    <TextView
+        android:id="@+id/Crop_Type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Crop type"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/CropType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Please enter the type of crop"
+        android:layout_weight="0.06" />
+
+    <TextView
+        android:id="@+id/Diesase_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Diease Name"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/DiseaseName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Please enter the name of the disease"
+        android:layout_weight="0.06" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:text="Submit"
+        android:layout_marginTop="70dp"
+        android:id="@+id/submitText"
+        />
+
+</LinearLayout>
